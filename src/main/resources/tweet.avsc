@@ -1,0 +1,24 @@
+{
+  "type": "record",
+  "namespace": "tweet",
+  "name": "tweet",
+  "fields":[
+    { "name": "id", "type":"string" },
+    { "name": "username", "type":"string" },
+    { "name": "userId", "type":"long" },
+    { "name": "userScreenName", "type":"string" },
+    { "name": "userDesc", "type":"string" },
+    { "name": "userProfileImgUrl", "type":"string" },
+    { "name": "favCount", "type":"int" },
+    { "name": "retweetCount", "type":"int" },
+    { "name": "lang", "type":"string" },
+    { "name": "place", "type":"string" },
+    { "name": "message", "type":"string" },
+    { "name": "isSensitive", "type":"boolean" },
+    { "name": "isTruncated", "type":"boolean" },
+    { "name": "isFavorited", "type":"boolean" },
+    { "name": "isRetweeted", "type":"boolean" },
+    { "name": "isRetweet", "type":"boolean" },
+    { "name": "createdAt", "type":"long" }
+  ]
+}
